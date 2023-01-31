@@ -85,5 +85,8 @@
 <symbol id="paper-plane" viewBox="0 0 24 24">
 <path  d="M24 2 0 13.25l7.67 2.367L19.5 6.375l-8.998 10.116.007.003-.009-.003V22l4.301-4.182 5.45 1.682L24 2Z"/>
 </symbol>
+<symbol id="icon-charm_menu-hamburger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.153h42.964M1.961 15.615h42.964M1.961 2.077h42.964"></path>
+</symbol>
 </defs>
 </svg>
