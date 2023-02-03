@@ -1,14 +1,14 @@
 :root {
-    --primary-brand-color-iris: #4D5AE5;
-    --button-dark-blue: #404BBF;
-    --dark-navy-blue: #2E2F42;
-    --success: #31D0AA;
-    --slate: #434455;
-    --light-slate: #8E8F99;
-    --cornflower: #E7E9FC;
-    --cloud: #F4F4FD;
-    --grey: #2E2F42B2;
-    --transition-time-and-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --primary-brand-color-iris: #4d5ae5;
+  --button-dark-blue: #404bbf;
+  --dark-navy-blue: #2e2f42;
+  --success: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --grey: #2e2f42b2;
+  --transition-time-and-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
