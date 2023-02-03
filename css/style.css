@@ -74,25 +74,92 @@ body {
     display: none;
 }
 
-.menu-container {
-    background-color: turquoise;
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+.top-menu-link {
+    text-decoration: none;
+    color: var(--dark-navy-blue);
+    padding: 20px 0;
+    transition: color var(--transition-time-and-cubic);
+}
 
+.mobile-menu .top-menu-link {
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+}
+
+.mobile-menu .current-page {
+    color: var(--button-dark-blue);
+}
+
+.top-menu-link:hover,
+.top-menu-link:focus {
+    
+    color: var(--primary-brand-color-iris);
+}
+
+.top-menu-link:active {
+    color: var(--primary-brand-color-iris);
+}
+
+/* .contact {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    transition: color var(--transition-time-and-cubic);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--primary-brand-color-iris);
+} */
+
+.menu-container {
+  background-color: white;
+
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 40px 40px;
+
+  transform: translateX(100%);
+  transition: transform var(--transition-time-and-cubic);
 }
 
 .menu-container .menu-toggle {
+    background-color: var(--cornflower);
+
     position: absolute;
     top: 40px;
     right: 40px;
+    border: 1px solid #0000001A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+    transition: background-color var(--transition-time-and-cubic),
+    fill var(--transition-time-and-cubic);
 }
 
-.btn-mob-menu-close {
-
+.menu-container .menu-toggle:hover,
+.menu-container .menu-toggle:focus {
+    background-color: var(--button-dark-blue);
+    fill: var(--cornflower);
 }
+
+.menu-container.is-open {
+    transform: translateX(0);
+  }
 
 /* end-mob-menu */
 /* Modal section */
@@ -403,12 +470,12 @@ body {
 }
 
 .top-menu-link {
-    text-decoration: none;
-    color: var(--dark-navy-blue);
+    /* text-decoration: none;
+    color: var(--dark-navy-blue); */
     padding: 24px 0;
-    transition: color var(--transition-time-and-cubic);
+    /* transition: color var(--transition-time-and-cubic); */
 }
-
+/* 
 .top-menu-link:hover,
 .top-menu-link:focus {
     
@@ -417,7 +484,7 @@ body {
 
 .top-menu-link:active {
     color: var(--primary-brand-color-iris);
-}
+} */
 
 .current-page {
     color: var(--primary-brand-color-iris);
