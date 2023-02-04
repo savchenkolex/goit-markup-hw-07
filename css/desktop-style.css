@@ -143,25 +143,25 @@ body {
 .hero {
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 
-    width: 480px;
-    margin-left: auto;
+    max-width: 480px;
+    /* margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
+    margin-top: 0; */
     margin-bottom: 48px;
 }
 
 
 .baner-grey {
-    text-align: center;
+    /* text-align: center; */
     
     background: linear-gradient(to right, var(--grey), var(--grey)), url(../images/people-office-1.jpg), no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-position: center;
+    background-repeat: no-repeat; */
     max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding-top: 192px;
     padding-bottom: 192px;
 }
@@ -278,6 +278,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 .team-cards .people {
     background: #FFFFFF;
@@ -810,6 +811,7 @@ body {
 .dark-footer .container {
     display: flex;
     /* gap: 120px; */
+    flex-direction: row;
 }
 
 .footer-slogan {
