@@ -244,9 +244,13 @@ body {
 
 .email {
     font-size: 20px;
-    margin-top: 40px;
     line-height: 1.1;
     font-weight: 500;
+}
+
+.mob-address-menu li {
+    margin-top: 40px;
+
 }
 
 .menu-container {
@@ -797,7 +801,7 @@ body {
 .slogan-text {
     margin: 0;
     /* margin-top: 16px; */
-    margin-bottom: ;
+    
 }
 
 .header-footer {
@@ -848,14 +852,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .subscribe-email {
     color: #FFFFFF4D;
     background-color: var(--dark-navy-blue);
-    width: 264px;
-    /* height: 40px; */
+    width: 100%;
+    
     border: 1px solid #FFFFFF4D;
     border-radius: 4px;
     padding: 8px 16px;
@@ -904,8 +908,14 @@ body {
     
 }
 
+.logo {
+    margin-right: 120px;
+}
+
 .address-box {
     margin-left: auto;
+    align-self: baseline;
+    padding-top: 24px;
 }
 
 .top-menu {
@@ -917,6 +927,15 @@ body {
     align-items: center;
 }
 
+.address-box .top-menu {
+    flex-direction: column;
+
+}
+
+.address-box .top-menu .top-menu-items {
+    margin: 0;
+}
+
 .top-menu .top-menu-items {
     margin-right: 40px;
 }
@@ -925,22 +944,9 @@ body {
     margin-right: 0;
 }
 
-.top-menu-link {
-    /* text-decoration: none;
-    color: var(--dark-navy-blue); */
+.top-menu-link { 
     padding: 24px 0;
-    /* transition: color var(--transition-time-and-cubic); */
 }
-/* 
-.top-menu-link:hover,
-.top-menu-link:focus {
-    
-    color: var(--primary-brand-color-iris);
-}
-
-.top-menu-link:active {
-    color: var(--primary-brand-color-iris);
-} */
 
 .current-page {
     color: var(--primary-brand-color-iris);
@@ -962,6 +968,7 @@ body {
 }
 
 .contact {
+    font-size: 12px;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -969,7 +976,14 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
     transition: color var(--transition-time-and-cubic);
+    padding: 0;
 }
+
+.email {
+    margin-bottom: 4px;
+}
+
+
 
 .contact:hover,
 .contact:focus {
@@ -986,10 +1000,80 @@ body {
     max-width: 408px;
 }
 
+.baner-grey {
+    padding-bottom: 108px;
+}
+
+.hero {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 494px;
+    margin-bottom: 40px;
+}
+
+.header-items {
+    text-align: left;
+}
+
+.features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.features .features-list {
+    width: calc((100% - 24px) / 2);
+}
+
+.team-cards {
+    gap: 64px 24px;
+}
+
+.team-title .header-items {
+    text-align: center;
+}
+
+.customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
 .customer-logo-box {
     width: calc((100% - 48px) / 3);
 }
 
+.dark-footer .container {
+    flex-direction: unset;
+    align-items: unset;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+}
+
+.header-footer {
+    text-align: left;
+}
+
+.footer-slogan .logo {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.subscribe-form-wrapper {
+    flex-grow: 1;
+}
+
+.subscribe-form {
+    justify-content: unset;
+}
+
+.subscribe-email {
+    width: 264px;
+}
+
+.subscribe {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
 
  /* end-tablets */
 }
