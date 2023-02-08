@@ -971,12 +971,13 @@ body {
 }
 
 
-
-/* .examples .examples-list {
-    margin-right: 24px;
-    margin-bottom: 48px;
+ .examples .examples-list {
+    /* width: 100%; */
+    /* margin-right: 24px;
+    margin-bottom: 48px; */
 }
 
+/*
 .examples .examples-list:nth-child(3n+3) {
     margin-right: 0;
 }
@@ -999,7 +1000,14 @@ body {
 @media screen and (min-width: 768px) {
 .container {
     max-width: 768px;
+    
 }
+
+.tab-container {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
 /* tab-menu */
 .nav-box {
     display: flex;
@@ -1012,8 +1020,9 @@ body {
 
 .address-box {
     margin-left: auto;
-    align-self: baseline;
-    padding-top: 24px;
+    /* align-self: baseline;
+    padding-top: 24px; */
+    align-self: center;
 }
 
 .top-menu {
@@ -1032,7 +1041,7 @@ body {
 
 .address-box .top-menu .top-menu-items {
     margin: 0;
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
 }
 
 .top-menu .top-menu-items {
@@ -1125,7 +1134,7 @@ body {
 .features {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
 }
 
 .features .features-list {
@@ -1198,6 +1207,10 @@ body {
     padding-bottom: 96px;
 }
 
+.filter .button {
+    padding: 12px 24px;
+}
+
 .filter-box {
     justify-content: center;
 }
@@ -1222,6 +1235,11 @@ body {
 
 .container {
     max-width: 1158px;
+}
+
+.tab-container {
+    padding-left: 15px;
+    padding-right: 15px;
 }
     
     /* menu section */
@@ -1271,6 +1289,8 @@ body {
         background: linear-gradient(to right, var(--grey), var(--grey)), url(../images/hero-bg-img-tab-1440.jpg) no-repeat;
         background-size: cover ;
         max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -1401,7 +1421,7 @@ body {
     }
     
     .dark-footer .container {
-        display: flex;
+        gap: unset;
     }
     
     .footer-slogan {
