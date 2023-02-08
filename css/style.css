@@ -959,7 +959,7 @@ body {
 .examples {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    gap: 72px;
 }
 
 
@@ -1190,10 +1190,12 @@ body {
     margin-bottom: 0;
 }
 
+.examples {
+    gap:72px 24px;
+}
 
-.examples::after,
-.examples::before {
-    box-sizing: content-box;
+.examples-list {
+    width: calc((100% - 24px) / 2);
 }
 
  /* end-tablets */
@@ -1366,10 +1368,13 @@ body {
         padding-bottom: 120px;
     }
 
-    .examples {
-        box-sizing: border-box;
-    }
+   .examples {
+    gap: 48px 24px;
+   }
    
+   .examples-list {
+    width: calc((100% - 48px) / 3);
+   }
     
     
     /* Footer */
