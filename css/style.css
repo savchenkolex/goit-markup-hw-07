@@ -226,6 +226,11 @@ body {
     margin-top: 48px;
 }
 
+/* .mob-contact-box .social-icon {
+    width: unset;
+    height: unset;
+} */
+
 .contact {
     display: block;
     text-decoration: none;
@@ -246,11 +251,12 @@ body {
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
+    color: var(--primary-brand-color-iris);
 }
 
 .email {
     font-size: 20px;
-    line-height: 1.1;
+    line-height: 1.11;
     font-weight: 500;
 }
 
@@ -398,6 +404,7 @@ body {
 /* mob-team */
 .our-team {
     background-color: var(--cloud);
+    padding-bottom: 128px;
 }
 
 .team-cards {
@@ -464,20 +471,20 @@ body {
 
 .social-icon {
     fill: var(--cloud);
-    width: 16px;
-    height: 16px;
+    /* width: 16px;
+    height: 16px; */
 }
 /* end-mob-team */
 /* mob-customers */
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-logo-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 16px;
 }
 
 .customer-logo-box {
@@ -537,7 +544,7 @@ body {
     top: 50%;
     left: 50%;
     /* width: clamp(180px, 318px, 408px); */
-    max-width: 392px;
+    width: 392px;
     padding: 24px;
     padding-top: 72px;
     
@@ -802,12 +809,13 @@ body {
 
 .footer-slogan .logo {
     text-align: center;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .slogan-text {
     margin: 0;
-    /* margin-top: 16px; */
+    margin-top: 16px;
     
 }
 
@@ -1124,6 +1132,10 @@ body {
     width: calc((100% - 24px) / 2);
 }
 
+.our-team {
+    padding-bottom: 104px;
+}
+
 .team-cards {
     gap: 64px 24px;
 }
@@ -1146,6 +1158,10 @@ body {
     align-items: unset;
     flex-wrap: wrap;
     gap: 72px 24px;
+}
+
+.footer-slogan .logo {
+    text-align: left;
 }
 
 .header-footer {
