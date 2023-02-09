@@ -442,6 +442,8 @@ body {
 
 .images {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .social-flex {
@@ -488,7 +490,7 @@ body {
 }
 
 .customer-logo-box {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 16px) / 2);
 }
 
 .customer-pages {
@@ -972,7 +974,7 @@ body {
 
 
  .examples .examples-list {
-    /* width: 100%; */
+    width: 100%;
     /* margin-right: 24px;
     margin-bottom: 48px; */
 }
@@ -1162,6 +1164,10 @@ body {
     width: calc((100% - 48px) / 3);
 }
 
+.customers-logo-list {
+    gap: 72px 24px;
+}
+
 .dark-footer .container {
     flex-direction: unset;
     align-items: unset;
@@ -1223,7 +1229,7 @@ body {
     gap:72px 24px;
 }
 
-.examples-list {
+.examples .examples-list {
     width: calc((100% - 24px) / 2);
 }
 
@@ -1408,7 +1414,7 @@ body {
     gap: 48px 24px;
    }
    
-   .examples-list {
+   .examples .examples-list {
     width: calc((100% - 48px) / 3);
    }
     
